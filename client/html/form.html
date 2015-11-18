@@ -1,0 +1,22 @@
+<template name="form">
+  <div class="sent">{{_ "tnx"}}</div>
+  <form id="contact-form" >
+    <div class="form-group input-group">
+      <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+      <input name="yourname" type="text" class="form-control" id="namec" placeholder="{{_ "con.name"}}">
+    </div>
+    <div class="form-group input-group">
+      <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+      <input name="email" type="email" class="form-control" id="emailc" placeholder="{{_ "con.mail"}}">
+    </div>
+    <div class="form-group input-group">
+      <span class="input-group-addon"><span class="glyphicon glyphicon-bold"></span></span>
+      <input name="subject" type="text" class="form-control" id="csubject" placeholder="{{_ "con.subject"}}">
+    </div>
+    <div class="form-group input-group">
+      <span class="input-group-addon"><span class="glyphicon glyphicon-comment"></span></span>
+      <textarea name="comments" class="form-control" id="messagec" rows="3" placeholder="{{_ "con.message"}}"></textarea>
+    </div>
+    <button id="sendc" type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-send"></span>{{_ "con.send"}}</button>
+  </form>
+</template>

@@ -1,0 +1,348 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Web developer">
+  <meta name="keywords" content="Web developer, BackEnd developer, FrontEnd developer, SysAdmin, Friendly ;)"/>
+  <meta name="author" content="Limonazzo">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta property="og:title" content="limonazzo.com" />
+  <meta property="og:type" content="profile" />
+  <meta property="profile:first_name" content="Isaac" />
+  <meta property="profile:last_name" content="Limón" />
+  <meta property="profile:username" content="limonazzo" />
+  <meta property="profile:gender" content="male" />
+  <meta property="og:description" content="Hello! , Im limonazzo" />
+  <meta property="og:url" content="http://limonazzo.com" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <title>Isaac Limón</title>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+  <base href="https://limonazzo.com/cv" target="_blank">
+</head>
+
+<body>
+
+  <div class="top-icons">
+    <a class="top-menu hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.menu"}}"><span class="glyphicon glyphicon-th-list"></span></a>
+    <a href="cv.pdf" target="_blank" class="top-download-resume hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.resume"}}"><span class="glyphicon glyphicon-cloud-download"></span></a>
+    <a class="top-contact hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.contact"}}"><span class="glyphicon glyphicon-send"></span></a>
+    <a class="top-toggle-day-night hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.toggle"}}"><span class="glyphicon glyphicon glyphicon-adjust"></span></a>
+    <a class="top-lang hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.lang"}}"><span class="glyphicon glyphicon glyphicon-globe"></span></a>
+  </div>
+
+  <nav id="spy" class="spy hidden-sm hidden-xs">
+    <ul>
+      <li class="active"><a href="#profile">{{_ "menui.profile"}}</a></li>
+      <li><a href="#work-experience">{{_ "menui.work"}}</a></li>
+      <li><a href="#education">{{_ "menui.education"}}</a></li>
+      <li><a href="#professional-skills">{{_ "menui.skills"}}</a></li>
+      <li><a href="#interests">{{_ "menui.interests"}}</a></li>
+      <li><a href="#portfolio">{{_ "menui.portfolio"}}</a></li>
+      <li><a href="#contact">{{_ "menui.contact"}}</a></li>
+    </ul>
+  </nav>
+
+
+  <nav id="mini-nav" class="spy visible-sm visible-xs">
+    <ul>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Menu</a>
+        <ul class="dropdown-menu">
+          <li class="active"><a href="#profile">{{_ "menui.profile"}}</a></li>
+          <li><a href="#work-experience">{{_ "menui.work"}}</a></li>
+          <li><a href="#education">{{_ "menui.education"}}</a></li>
+          <li><a href="#professional-skills">{{_ "menui.skills"}}</a></li>
+          <li><a href="#interests">{{_ "menui.interests"}}</a></li>
+          <li><a href="#portfolio">{{_ "menui.portfolio"}}</a></li>
+          <li><a href="#contact">{{_ "menui.contact"}}</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+          <img src="img/face.jpg" class="face" alt="">
+          <hr class="empty">
+          <p class="header-name">Isaac Limón</p>
+          <p class="header-title">Web Developer</p>
+          <p class="header-subtitle">
+            {{{_ "header-subtitle"}}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="profile" class="profile activate">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 col-sm-offset-5">
+          <ul>
+            <li class="title"><span class="glyphicon glyphicon-user"></span>{{_ "pf.title"}}</li>
+            <li>
+              <span class="note">{{_ "pf.fullname"}}</span>
+              <p><strong>Isaac Limón González</strong></p>
+            </li>
+            <li>
+              <span class="note">{{_ "pf.born"}}</span>
+              <p><strong>{{_ "pf.date"}}</strong> (28 {{_ "pf.yo"}})</p>
+              <p><strong>México, México</strong></p>
+            </li>
+
+            <li>
+              <span class="note">{{_ "pf.linkedin"}}</span>
+              <p><strong><a target="_blank" href="https://www.linkedin.com/in/limonazzo">https://www.linkedin.com/in/limonazzo</a></strong></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work-experience" class="work-experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 col-sm-offset-5">
+          <ul>
+            <li class="title"><span class="glyphicon glyphicon-briefcase"></span>{{_ "wr.title"}}</li>
+            <li>
+              <span class="note">{{_ "wr.j5d"}}</span>
+              <p><strong>{{_ "wr.j5t"}}</strong></p>
+              <p><strong>{{_ "wr.j5c"}}</strong> Anzures, México</p>
+              <p class="description">{{_ "wr.j5d1"}}</p>
+            </li>
+            <li>
+              <span class="note">{{_ "wr.j1d"}}</span>
+              <p><strong>{{_ "wr.j1t"}}</strong></p>
+              <p><strong>{{_ "wr.j1c"}}</strong> Benito Juarez, México</p>
+              <p class="description">{{_ "wr.j1d1"}}</p>
+              <p class="description">{{_ "wr.j1d2"}}</p>
+            </li>
+            <li>
+              <span class="note">{{_ "wr.j2d"}}</span>
+              <p><strong>{{_ "wr.j2t"}}</strong></p>
+              <p><strong>{{_ "wr.j2c"}}</strong>Atizapán, México</p>
+              <p class="description">{{_ "wr.j2d1"}}</p>
+            </li>
+            <li>
+              <span class="note">{{_ "wr.j3d"}}</span>
+              <p><strong>{{_ "wr.j3t"}}</strong></p>
+              <p><strong>{{_ "wr.j3c"}}</strong>Freelance</p>
+              <p class="description">{{_ "wr.j3d1"}}</p>
+            </li>
+            <li>
+              <span class="note">{{_ "wr.j4d"}}</span>
+              <p><strong>{{_ "wr.j4t"}}</strong></p>
+              <p><strong>{{_ "wr.j4c"}}</strong>Cuautitlán, México</p>
+              <p class="description">{{_ "wr.j4d1"}}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="education" class="education">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 col-sm-offset-5">
+          <ul>
+            <li class="title"><span class="glyphicon glyphicon-book"></span>{{_ "ed.title"}}</li>
+            <li>
+              <span class="note">{{_ "ed.cl"}}</span>
+              <p><strong>{{_ "ed.tt"}}</strong></p>
+              <p><strong>{{_ "ed.tw"}}</strong> F.E.S.C. 4</p>
+              <p class="description"></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="professional-skills" class="professional-skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 col-sm-offset-5">
+          <ul>
+            <li class="title"><span class="glyphicon glyphicon-tasks"></span>{{_ "sk.pr"}}</li>
+            <li>
+              <p>openSUSE (*NIX O.S. admin)<span class="annotation pull-right">90%</span></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </li>
+            <li>
+              <p>PHP<span class="annotation pull-right">95%</span></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </li>
+            <li>
+              <p>Javascript<span class="annotation pull-right">85%</span></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </li>
+            <li>
+              <p>NGINX<span class="annotation pull-right">80%</span></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skilll">PHP</span>
+              <span class="skilll">MySQL</span>
+              <span class="skilll">HTML5</span>
+              <span class="skilll">CSS3</span>
+              <span class="skilll">JavasScript</span>
+              <span class="skilll">Symfony</span>
+              <span class="skilll">CodeIgniter</span>
+              <span class="skilll">Zend Framework</span>
+              <span class="skilll">MongoDB</span>
+              <span class="skilll">Nodejs</span>
+              <span class="skilll">Handlebarsjs</span>
+              <span class="skilll">Meteorjs</span>
+              <span class="skilll">SASS</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="personal-skills" class="personal-skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 col-sm-offset-5">
+          <ul>
+            <li class="title"><span class="glyphicon glyphicon-stats"></span>{{_ "sk.pe"}}</li>
+            <li>
+
+              <span class="chart" data-percent="99"><span class="skill">{{_ "sk.pu"}}</span>
+                <span class="percent"></span>
+              </span>
+
+              <span class="chart" data-percent="90"><span class="skill">{{_ "sk.le"}}</span>
+                <span class="percent"></span>
+              </span>
+
+              <span class="chart" data-percent="90"><span class="skill">{{_ "sk.ss"}}</span>
+                <span class="percent"></span>
+              </span>
+
+              <span class="chart" data-percent="75"><span class="skill">{{_ "sk.cr"}}</span>
+                <span class="percent"></span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="interests" class="interests">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 col-sm-offset-5">
+          <ul>
+            <li class="title"><span class="glyphicon glyphicon-heart-empty"></span>{{_ "in.title"}}</li>
+            <li>
+              <p><strong>{{_ "in.i2"}}</strong></p>
+              <p class="description">{{_ "in.i2d1"}}</p>
+            </li>
+            <li>
+              <p><strong>{{_ "in.i1"}}</strong></p>
+              <p class="description">{{_ "in.i1d1"}}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 col-sm-offset-5">
+          <ul>
+            <li class="title"><span class="glyphicon glyphicon-eye-open"></span>Portfolio</li>
+            <li class="static">
+              <a id="portfolio-pic" href="/img/tv.jpg" title="eleconomista.tv">
+                <img src="/img/tv.jpg" alt="" />
+              </a>
+              <a id="portfolio-pic" href="/img/secciones.jpg" title="Secciones del eleconomista.mx">
+                <img src="/img/secciones.jpg" alt="" />
+              </a>
+              <a id="portfolio-pic" href="/img/ama.jpg" title="Amazcota">
+                <img src="/img/ama.jpg" alt="" />
+              </a>
+              <a id="portfolio-pic" href="/img/aca.jpg" title="Academicon">
+                <img src="/img/aca.jpg" alt="" />
+              </a>
+              <a id="portfolio-pic" href="/img/lem.jpg" title="Lemon Solutions">
+                <img src="/img/lem.jpg" alt="" />
+              </a>
+              <a id="portfolio-pic" href="/img/mer.jpg" title="Mercastic">
+                <img src="/img/mer.jpg" alt="" />
+              </a>
+              <a id="portfolio-pic" href="/img/pro.jpg" title="Procat (P.A.C.I.V.E.)">
+                <img src="/img/pro.jpg" alt="" />
+              </a>
+              <a id="portfolio-pic" href="/img/sai.jpg" title="S.A.I.">
+                <img src="/img/sai.jpg" alt="" />
+              </a>
+              <a id="portfolio-pic" href="/img/wpv.jpg" title="W.P.V.">
+                <img src="/img/wpv.jpg" alt="" />
+              </a>
+              <a id="portfolio-pic" href="/img/ven.jpg" title="Admin panel se7ven">
+                <img src="/img/ven.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 col-sm-offset-5">
+          <ul>
+            <li class="title"><span class="glyphicon glyphicon-envelope"></span>{{_ "con.title"}}</li>
+            <li class="static">
+              <span class="note">{{_ "con.add"}}</span>
+              <p><strong>Atizapán</strong></p>
+              <p><strong>México</strong></p>
+              <span class="note">{{_ "con.mo"}}</span>
+              <p><strong>04455 - 5069 2208</strong></p>
+              <span class="note">Email</span>
+              <p><strong><a href="i@limonazzo.com">i@limonazzo.com</a></strong></p>
+              <hr class="empty">
+
+              {{> form}}
+
+
+            </li>
+            <li class="title up"><span class="glyphicon glyphicon-arrow-up"></span>{{_ "up"}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
