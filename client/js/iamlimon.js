@@ -128,7 +128,7 @@ Template.form.events({
                     'i@limonazzo.com',
                     'Limonazzo Contacto',
                     content);
-                    
+
             $('#contact-form').fadeTo(1600,0,function(){
               $('#contact-form').css({visibility: 'hidden'});
               $('.sent').css({visibility: 'visible'}).hide().fadeIn(1600, function(){
@@ -139,4 +139,14 @@ Template.form.events({
 
         return false;
     }
+});
+
+Template.body.helpers({
+  years: function(){
+    var birthday = new Date(1986,05,27);
+    var ageDifMs = Date.now() - birthday.getTime();
+    var ageDate = new Date(ageDifMs);
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  }
+  
 });

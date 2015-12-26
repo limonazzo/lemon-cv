@@ -15,7 +15,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
   <title>Isaac Limón</title>
   <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
-  <base href="https://limonazzo.com/cv" target="_blank">
 </head>
 
 <body>
@@ -87,7 +86,7 @@
             </li>
             <li>
               <span class="note">{{_ "pf.born"}}</span>
-              <p><strong>{{_ "pf.date"}}</strong> (28 {{_ "pf.yo"}})</p>
+              <p><strong>{{_ "pf.date"}}</strong> ({{ years }} {{_ "pf.yo"}})</p>
               <p><strong>México, México</strong></p>
             </li>
 
@@ -254,12 +253,12 @@
           <ul>
             <li class="title"><span class="glyphicon glyphicon-heart-empty"></span>{{_ "in.title"}}</li>
             <li>
-              <p><strong>{{_ "in.i2"}}</strong></p>
-              <p class="description">{{_ "in.i2d1"}}</p>
-            </li>
-            <li>
               <p><strong>{{_ "in.i1"}}</strong></p>
               <p class="description">{{_ "in.i1d1"}}</p>
+            </li>
+            <li>
+              <p><strong>{{_ "in.i2"}}</strong></p>
+              <p class="description">{{_ "in.i2d1"}}</p>
             </li>
           </ul>
         </div>
@@ -275,10 +274,10 @@
           <ul>
             <li class="title"><span class="glyphicon glyphicon-eye-open"></span>Portfolio</li>
             <li class="static">
-              <a id="portfolio-pic" href="/img/tv.jpg" title="eleconomista.tv">
+              <a id="portfolio-pic" href="/img/tv.jpg" title="<a target='_blank' href='http://eleconomista.com.mx/tv'>eleconomista.tv<a/>">
                 <img src="/img/tv.jpg" alt="" />
               </a>
-              <a id="portfolio-pic" href="/img/secciones.jpg" title="Secciones del eleconomista.mx">
+              <a id="portfolio-pic" href="/img/secciones.jpg" title="<a target='_blank' href='http://eleconomista.com.mx/dinero'>Secciones del eleconomista.mx<a/>">
                 <img src="/img/secciones.jpg" alt="" />
               </a>
               <a id="portfolio-pic" href="/img/ama.jpg" title="Amazcota">
@@ -329,9 +328,9 @@
               <p><strong>Atizapán</strong></p>
               <p><strong>México</strong></p>
               <span class="note">{{_ "con.mo"}}</span>
-              <p><strong>04455 - 5069 2208</strong></p>
+              <p><strong><a href="tel:+5523673784"></a> 04455 2367 3784</strong></p>
               <span class="note">Email</span>
-              <p><strong><a href="i@limonazzo.com">i@limonazzo.com</a></strong></p>
+              <p><strong><a href="mailto: i@limonazzo.com">i@limonazzo.com</a></strong></p>
               <hr class="empty">
 
               {{> form}}
