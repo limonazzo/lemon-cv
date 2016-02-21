@@ -8,7 +8,7 @@ Meteor.methods({
             ip: this.connection.clientAddress
         });
     },
-    
+
     clientnew: function ($name, $mail, $mess) {
         Clientes.insert({
             fecha: new Date(),
@@ -17,11 +17,11 @@ Meteor.methods({
             mess: $mess
         });
     },
-    
+
     sendEmail: function (to, subject, text) {
         check([to, subject, text], [String]);
         this.unblock();
-        process.env.MAIL_URL = "smtp://i:seeyouinhell@limonazzo.com:25/";
+        process.env.MAIL_URL = "smtp://i:LEL@limonazzo.com:587/";
         Email.send({
             to: to,
             from: 'i@limonazzo',

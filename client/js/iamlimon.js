@@ -63,7 +63,7 @@ Meteor.startup(function () {
         }
     });
     console.log("%c↓ ↓ ↓", s);
-    console.log("https://www.youtube.com/watch?v=dRl8EIhrQjQ");
+    console.log("https://www.youtube.com/watch?v=Z63LoUKMx2U");
     console.log("%c↑ ↑ ↑", s);
 });
 
@@ -148,5 +148,5 @@ Template.body.helpers({
     var ageDate = new Date(ageDifMs);
     return Math.abs(ageDate.getUTCFullYear() - 1970);
   }
-  
+
 });

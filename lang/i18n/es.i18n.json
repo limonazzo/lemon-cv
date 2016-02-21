@@ -15,10 +15,10 @@
     "portfolio": "Portafolio",
     "contact": "Contacto"
   },
-  "header-subtitle": "Hola mi nombre es Isaac <b>Limón</b> y soy desarrollador web de Atizapán, México. Me apasiona el desarrollo web. Mi prioridad al desarrollar una aplicación es que sea de alto rendimiento, y el buen código. También soy muy sociable, la gente se siente a gusto cuando esta con migo. :)",
+  "header-subtitle": "Hola mi nombre es Isaac <b>Limón</b> y soy desarrollador web del D.F., México. Me apasiona el desarrollo web. Mi prioridad al desarrollar una aplicación es que sea de alto rendimiento, y el buen código. También soy muy sociable, la gente se siente a gusto cuando esta con migo. :)",
   "pf" : {
     "title" : "Perfil",
-    "fullname" : "Nombre completo",
+    "fullname" : "Nombre",
     "born" : "Nacimiento",
     "date" : "27 de Mayo de 1986",
     "yo" : "años",
@@ -47,10 +47,15 @@
     "j4c" : "Web Developer",
     "j4d1" : "Diseño de la arquitectura de la aplicación.Creación de procedimientos y políticas de seguridad. Participé en el desarrollo del sistema P.A.S.I.V.E.",
 
-    "j5d" : "Febrero-Abril",
+    "j5d" : "Febrero 2015 - Abril 2015",
     "j5t" : "ktc",
     "j5c" : "FrontEnd Creative Developer",
-    "j5d1" : "Respaldo en proyectos de SUZUKI , Qeldr, Netlift"
+    "j5d1" : "Respaldo en proyectos de SUZUKI , Qeldr, Netlift",
+
+    "j6d" : "Mayo 2015 - Ahora",
+    "j6t" : "Element",
+    "j6c" : "Backend Developer",
+    "j6d1" : "Respaldo en proyectos de benegastro, lavasconia, sm-flow, endeavor"
 
 
   },
