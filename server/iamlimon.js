@@ -1,5 +1,11 @@
 Clientes = new Mongo.Collection("client");
 
+
+var api_key = process.env.MAILGUN_API_KEY;
+var domain = process.env.MAILGUN_DOMAIN; 
+
+var mailgun = Npm.require('mailgun-js')({apiKey: api_key, domain: domain});
+
 Meteor.methods({
     visitantes: function ($ip) {
         Clientes.insert({
@@ -19,14 +25,15 @@ Meteor.methods({
     },
 
     sendEmail: function (to, subject, text) {
-        check([to, subject, text], [String]);
-        this.unblock();
-        process.env.MAIL_URL = "smtp://i:LEL@limonazzo.com:587/";
-        Email.send({
-            to: to,
-            from: 'i@limonazzo',
-            subject: subject,
-            text: text
+        var data = {
+                    from: 'Limonazzo <info@limonazzo.com>',
+                    to: to,
+                    subject: subject,
+                    text: text
+            };
+
+        mailgun.messages().send(data, function (error, body) {
+            console.log(body);
         });
     }
 });
