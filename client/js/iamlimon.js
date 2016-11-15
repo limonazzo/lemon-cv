@@ -1,5 +1,7 @@
 Session.set("idiome", "en");
 
+GAnalytics.pageview();
+
 getUserLanguage = function () {
     var idioma = Session.get("idiome");
     if (idioma === "es") {
