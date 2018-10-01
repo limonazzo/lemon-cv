@@ -84,7 +84,7 @@
       "add" : "Address",
       "mo" : "Mobile",
       "name" : "Enter your name",
-      "mail" : "Enter your email",
+      "mail" : "Enter your email or you phone number",
       "subject" : "Enter subject",
       "message" : "Enter message here",
       "send" : " Send message"

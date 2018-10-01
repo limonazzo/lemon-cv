@@ -15,7 +15,7 @@
     "portfolio": "Portafolio",
     "contact": "Contacto"
   },
-  "header-subtitle": "Hola mi nombre es Isaac <b>Limón</b> y soy desarrollador web del D.F., México. Me apasiona el desarrollo web. Mi prioridad al desarrollar una aplicación es que sea de alto rendimiento, y el buen código. También soy muy sociable, la gente se siente a gusto cuando esta con migo. :)",
+  "header-subtitle": "Hola mi nombre es Isaac <b>Limón</b> y soy desarrollador web del D.F., México. Me apasiona el desarrollo web. Mi prioridad al desarrollar una aplicación es que sea de alto rendimiento, y el buen código. También soy muy sociable, la gente se siente a gusto cuando esta conmigo. :)",
   "pf" : {
     "title" : "Perfil",
     "fullname" : "Nombre",
@@ -86,7 +86,7 @@
       "add" : "Domicilio",
       "mo" : "Teléfono celular",
       "name" : "Nombre",
-      "mail" : "Correo electrónico",
+      "mail" : "Correo electrónico o téléfono",
       "subject" : "Asunto",
       "message" : "Mensaje",
       "send" : "Mandar"

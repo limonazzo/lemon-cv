@@ -101,7 +101,7 @@ Template.form.events({
         console.log("SEND MAIL");
         var cname = $("#namec").val();
         var cemail = $("#emailc").val();
-        var csubject = $("#csubject").val();
+        //var csubject = $("#csubject").val();
         var csub = $("#messagec").val();
 
         var errcount = 0;
@@ -114,17 +114,19 @@ Template.form.events({
         }
 
         //email validation
-        var emailRegex = new RegExp(/^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$/i);
-        var valid = emailRegex.test(cemail);
-        if (!valid) {
+        // var emailRegex = new RegExp(/^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$/i);
+        // var valid = emailRegex.test(cemail);
+        
+        if (!cemail) {
             $("#emailc").addClass("error");
             errcount = 1;
         } else {
             $("#emailc").removeClass("error");
         }
+
         if (errcount === 0) {
 
-            var content = cname + "\n" + cemail + "\n\n" + csubject + "\n\n" + csub;
+            var content = cname + "\n" + cemail + "\n\n"  + csub;
 
             Meteor.call('sendEmail',
                     'i@limonazzo.com',
