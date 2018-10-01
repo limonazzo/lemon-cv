@@ -1,0 +1,26 @@
+{
+  "name": "lemon-cv",
+  "version": "1.0.0",
+  "description": " Limonazzo CV ",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limonazzo/lemon-cv.git"
+  },
+  "keywords": [
+    "Limonazzo"
+  ],
+  "author": "Isaac Limon <i@limonazzo.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/limonazzo/lemon-cv/issues"
+  },
+  "homepage": "https://github.com/limonazzo/lemon-cv#readme",
+  "dependencies": {
+    "@babel/runtime": "7.0.0-beta.55",
+    "mailgun-js": "^0.21.0"
+  }
+}
