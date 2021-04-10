@@ -21,7 +21,7 @@
 
   <div class="top-icons">
     <a class="top-menu hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.menu"}}"><span class="glyphicon glyphicon-th-list"></span></a>
-    <a href="cv.pdf" target="_blank" class="top-download-resume hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.resume"}}"><span class="glyphicon glyphicon-cloud-download"></span></a>
+    <!-- <a href="cv.pdf" target="_blank" class="top-download-resume hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.resume"}}"><span class="glyphicon glyphicon-cloud-download"></span></a> -->
     <a class="top-contact hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.contact"}}"><span class="glyphicon glyphicon-send"></span></a>
     <a class="top-toggle-day-night hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.toggle"}}"><span class="glyphicon glyphicon glyphicon-adjust"></span></a>
     <a class="top-lang hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" data-original-title="{{_ "menu.lang"}}"><span class="glyphicon glyphicon glyphicon-globe"></span></a>
@@ -35,7 +35,7 @@
       <li><a href="#professional-skills">{{_ "menui.skills"}}</a></li>
       <li><a href="#interests">{{_ "menui.interests"}}</a></li>
       <li><a href="#portfolio">{{_ "menui.portfolio"}}</a></li>
-      <li><a href="#contact">{{_ "menui.contact"}}</a></li>
+      <!-- <li><a href="#contact">{{_ "menui.contact"}}</a></li> -->
     </ul>
   </nav>
 
@@ -51,7 +51,7 @@
           <li><a href="#professional-skills">{{_ "menui.skills"}}</a></li>
           <li><a href="#interests">{{_ "menui.interests"}}</a></li>
           <li><a href="#portfolio">{{_ "menui.portfolio"}}</a></li>
-          <li><a href="#contact">{{_ "menui.contact"}}</a></li>
+          <!-- <li><a href="#contact">{{_ "menui.contact"}}</a></li> -->
         </ul>
       </li>
     </ul>
@@ -62,7 +62,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2 text-center">
-          <img src="img/face.jpg" class="face" alt="">
+          <img src="img/limon.jpeg" class="face" alt="">
           <hr class="empty">
           <p class="header-name">Isaac Limón</p>
           <p class="header-title">Web Developer</p>
@@ -91,9 +91,20 @@
             </li>
 
             <li>
+              <span class="note">Github</span>
+              <p><strong><a target="_blank" href="https://github.com/limonazzo">https://github.com/limonazzo</a></strong></p>
+            </li>
+
+            <li>
+              <span class="note">Stackoverflow</span>
+              <p><strong><a target="_blank" href="https://stackoverflow.com/users/2658357/isaac-lim%c3%b3n?tab=topactivity">https://stackoverflow.com/users/2658357/isaac-limón</a></strong></p>
+            </li>
+
+            <li>
               <span class="note">{{_ "pf.linkedin"}}</span>
               <p><strong><a target="_blank" href="https://www.linkedin.com/in/limonazzo">https://www.linkedin.com/in/limonazzo</a></strong></p>
             </li>
+
           </ul>
         </div>
       </div>
@@ -175,7 +186,7 @@
         <div class="col-sm-7 col-sm-offset-5">
           <ul>
             <li class="title"><span class="glyphicon glyphicon-tasks"></span>{{_ "sk.pr"}}</li>
-            <li>
+            <!-- <li>
               <p>openSUSE (*NIX O.S. admin)<span class="annotation pull-right">90%</span></p>
               <div class="progress">
                 <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -198,21 +209,33 @@
               <div class="progress">
                 <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-            </li>
+            </li> -->
             <li>
               <span class="skilll">PHP</span>
               <span class="skilll">MySQL</span>
               <span class="skilll">HTML5</span>
-              <span class="skilll">CSS3</span>
+            </li>
+            <li>
+              <span class="skilll">*NIX</span>
+              <span class="skilll">Git</span>
+              <span class="skilll">Kubernetes</span>
+              <span class="skilll">Docker</span>
+            </li>
+            <li>
+              <span class="skilll">AWS</span>
+              <span class="skilll">GCP</span>
+              <span class="skilll">Azure</span>
+            </li>
+            <li>
+              <span class="skilll">CSS</span>
               <span class="skilll">JavasScript</span>
               <span class="skilll">Symfony</span>
               <span class="skilll">CodeIgniter</span>
               <span class="skilll">Zend Framework</span>
+              <span class="skilll">Laravel</span>
               <span class="skilll">MongoDB</span>
               <span class="skilll">Nodejs</span>
-              <span class="skilll">Handlebarsjs</span>
               <span class="skilll">Meteorjs</span>
-              <span class="skilll">SASS</span>
             </li>
           </ul>
         </div>
@@ -228,23 +251,30 @@
           <ul>
             <li class="title"><span class="glyphicon glyphicon-stats"></span>{{_ "sk.pe"}}</li>
             <li>
-
-              <span class="chart" data-percent="99"><span class="skill">{{_ "sk.pu"}}</span>
-                <span class="percent"></span>
-              </span>
-
-              <span class="chart" data-percent="90"><span class="skill">{{_ "sk.le"}}</span>
-                <span class="percent"></span>
-              </span>
-
-              <span class="chart" data-percent="90"><span class="skill">{{_ "sk.ss"}}</span>
-                <span class="percent"></span>
-              </span>
-
-              <span class="chart" data-percent="75"><span class="skill">{{_ "sk.cr"}}</span>
-                <span class="percent"></span>
-              </span>
+              <span class="skilll">{{_ "sk.pu"}}</span>
+              <span class="skilll">{{_ "sk.le"}}</span>
+              <span class="skilll">{{_ "sk.ss"}}</span>
+              <span class="skilll">{{_ "sk.cr"}}</span>
             </li>
+
+            <!-- <li>
+
+              <span class="chart" data-percent="100"><span class="skill">{{_ "sk.pu"}}</span>
+                <span class="percent"></span>
+              </span>
+
+              <span class="chart" data-percent="100"><span class="skill">{{_ "sk.le"}}</span>
+                <span class="percent"></span>
+              </span>
+
+              <span class="chart" data-percent="100"><span class="skill">{{_ "sk.ss"}}</span>
+                <span class="percent"></span>
+              </span>
+
+              <span class="chart" data-percent="100"><span class="skill">{{_ "sk.cr"}}</span>
+                <span class="percent"></span>
+              </span>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -258,13 +288,20 @@
         <div class="col-sm-7 col-sm-offset-5">
           <ul>
             <li class="title"><span class="glyphicon glyphicon-heart-empty"></span>{{_ "in.title"}}</li>
+            
             <li>
-              <p><strong>{{_ "in.i1"}}</strong></p>
-              <p class="description">{{_ "in.i1d1"}}</p>
+              <p><strong>{{_ "in.i3"}}</strong></p>
+              <p class="description">{{_ "in.i3d1"}}</p>
             </li>
+
             <li>
               <p><strong>{{_ "in.i2"}}</strong></p>
               <p class="description">{{_ "in.i2d1"}}</p>
+            </li>
+            
+            <li>
+              <p><strong>{{_ "in.i1"}}</strong></p>
+              <p class="description">{{_ "in.i1d1"}}</p>
             </li>
           </ul>
         </div>
@@ -280,14 +317,24 @@
           <ul>
             <li class="title"><span class="glyphicon glyphicon-eye-open"></span>Portfolio</li>
             <li class="static">
-              
+              <a id="portfolio-pic" href="/img/audiohoroscopos.jpg" title="Audiohoróscopos, admin, SMS sender">
+                <img src="/img/audiohoroscopos.jpg" alt="" />
+              </a> 
+              <a id="portfolio-pic" href="/img/sonoro.jpg" title="Sonoro, custom admin, mailer">
+                <img src="/img/sonoro.jpg" alt="" />
+              </a> 
+              <a id="portfolio-pic" href="/img/ruiz.jpg" title="Laboratorios Ruiz ">
+                <img src="/img/ruiz.jpg" alt="" />
+              </a>  
+              <a id="portfolio-pic" href="/img/la.jpg" title="Legal Advisors, mailer">
+                <img src="/img/la.jpg" alt="" />
+              </a>  
+              <a id="portfolio-pic" href="/img/lemplocampo.jpg" title="Laboratorio Médico Polanco, custom Admin  ">
+                <img src="/img/lemplocampo.jpg" alt="" />
+              </a>  
               <a id="portfolio-pic" href="/img/chatbot.jpg" title="Cats bots, para CarlosV , Crunch, Megustaleer México, BotEJon ">
                 <img src="/img/chatbot.jpg" alt="" />
-              </a>  
-
-              <a id="portfolio-pic" href="/img/vickyform.jpg" title="Sistema de cupones - mail">
-                <img src="/img/vickyform.jpg" alt="" />
-              </a>  
+              </a>
               <a id="portfolio-pic" href="/img/mardefondo.jpg" title="Sistema de compra para vinomardefondo">
                 <img src="/img/mardefondo.jpg" alt="" />
               </a>  
@@ -369,15 +416,15 @@
             <li class="title"><span class="glyphicon glyphicon-envelope"></span>{{_ "con.title"}}</li>
             <li class="static">
               <span class="note">{{_ "con.add"}}</span>
-              <p><strong>CDMX</strong></p>
-              <p><strong>México</strong></p>
+              <p><strong>Atizapán de Zaragoza</strong></p>
+              <p><strong>Edo. México</strong></p>
               <span class="note">{{_ "con.mo"}}</span>
-              <p><strong><a href="tel:+5524347219"></a> 04455 2434 7219</strong></p>
+              <p><strong><a href="tel:+525524347219"></a>55 2434 7219</strong></p>
               <span class="note">Email</span>
-              <p><strong><a href="mailto: i@limonazzo.com">i@limonazzo.com</a></strong></p>
+              <p><strong><a href="mailto: limonazzzo@gmail.com">limonazzzo@gmail.com</a></strong></p>
               <hr class="empty">
 
-              {{> form}}
+              <!-- {{> form}} -->
 
 
             </li>

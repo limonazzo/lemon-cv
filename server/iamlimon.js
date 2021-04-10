@@ -1,8 +1,8 @@
 Clientes = new Mongo.Collection("client");
 
 
-var api_key = process.env.MAILGUN_API_KEY;
-var domain = process.env.MAILGUN_DOMAIN; 
+var api_key = 'xxx';// process.env.MAILGUN_API_KEY;
+var domain = 'XXX';// process.env.MAILGUN_DOMAIN;
 
 var mailgun = Npm.require('mailgun-js')({apiKey: api_key, domain: domain});
 

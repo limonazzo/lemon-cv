@@ -15,82 +15,76 @@
     "portfolio": "Portafolio",
     "contact": "Contacto"
   },
-  "header-subtitle": "Hola mi nombre es Isaac <b>Limón</b> y soy desarrollador web del D.F., México. Me apasiona el desarrollo web. Mi prioridad al desarrollar una aplicación es que sea de alto rendimiento, y el buen código. También soy muy sociable, la gente se siente a gusto cuando esta conmigo. :)",
-  "pf" : {
-    "title" : "Perfil",
-    "fullname" : "Nombre",
-    "born" : "Nacimiento",
-    "date" : "Mayo de 1986",
-    "yo" : "años",
-    "linkedin" : "LinkedIn Profile"
+  "header-subtitle": "Hola mi nombre es Isaac <b>Limón</b> y soy desarrollador web de México. Me apasiona el desarrollo web. Mi prioridad al desarrollar una aplicación es que sea de alto rendimiento, y el buen código. También soy muy sociable, la gente se siente a gusto cuando esta conmigo. :)",
+  "pf": {
+    "title": "Perfil",
+    "fullname": "Nombre",
+    "born": "Nacimiento",
+    "date": "Mayo de 1986",
+    "yo": "años",
+    "linkedin": "LinkedIn Profile"
   },
   "wr": {
-    "title" : "Experiencia",
-    "j1d" : "Enero 2014 - Febrero 2015",
-    "j1t" : "El economista (periódico)",
-    "j1c" : "Web Master",
-    "j1d1" : "Ayudé en el desarrollo del sitio del eleconomista.mx y en su implementación",
-    "j1d2" : "También construí el \"certificado digital\" del eleconomistaclub.mx",
-
-    "j2d" : "Abril 2013 - Septiembre 2013",
-    "j2t" : "Lemon Solutions",
-    "j2c" : "Web Developer Lider",
-    "j2d1" : "Implementé varios CMS, modulos para paypal, y un mailer",
-
-    "j3d" : "Mayo 2012 - Noviembre 2012",
-    "j3t" : "Ovenahu",
-    "j3c" : "Web Developer",
-    "j3d1" : "Migré una aplicación de escritorio a la web, originalmente escrita en java",
-
-    "j4d" : "Junio 2011 - Octubre 2012",
-    "j4t" : "UIM (Unidad de Investigación Multidiciplinaria)",
-    "j4c" : "Web Developer",
-    "j4d1" : "Diseño de la arquitectura de la aplicación.Creación de procedimientos y políticas de seguridad. Participé en el desarrollo del sistema P.A.S.I.V.E.",
-
-    "j5d" : "Febrero 2015 - Abril 2015",
-    "j5t" : "ktc",
-    "j5c" : "FrontEnd Creative Developer",
-    "j5d1" : "Respaldo en proyectos de SUZUKI , Qeldr, Netlift",
-
-    "j6d" : "Mayo 2015 - Ahora",
-    "j6t" : "Element",
-    "j6c" : "Backend Developer",
-    "j6d1" : "Respaldo en proyectos de benegastro, lavasconia, sm-flow, endeavor"
-
-
+    "title": "Experiencia",
+    "j1d": "Enero 2014 - Febrero 2015",
+    "j1t": "El economista (periódico)",
+    "j1c": "Web Master",
+    "j1d1": "Ayudé en el desarrollo del sitio del eleconomista.mx y en su implementación",
+    "j1d2": "También construí el \"certificado digital\" del eleconomistaclub.mx",
+    "j2d": "Abril 2013 - Septiembre 2013",
+    "j2t": "Lemon Solutions",
+    "j2c": "Web Developer Lider",
+    "j2d1": "Implementé varios CMS, modulos para paypal, y un mailer",
+    "j3d": "Mayo 2012 - Noviembre 2012",
+    "j3t": "Ovenahu",
+    "j3c": "Web Developer",
+    "j3d1": "Migré una aplicación de escritorio a la web, originalmente escrita en java",
+    "j4d": "Junio 2011 - Octubre 2012",
+    "j4t": "UIM (Unidad de Investigación Multidiciplinaria)",
+    "j4c": "Web Developer",
+    "j4d1": "Diseño de la arquitectura de la aplicación.Creación de procedimientos y políticas de seguridad. Participé en el desarrollo del sistema P.A.S.I.V.E.",
+    "j5d": "Febrero 2015 - Abril 2015",
+    "j5t": "ktc",
+    "j5c": "FrontEnd Creative Developer",
+    "j5d1": "Respaldo en proyectos de SUZUKI , Qeldr, Netlift",
+    "j6d": "Mayo 2015 - Ahora",
+    "j6t": "Element",
+    "j6c": "Backend Developer",
+    "j6d1": "Respaldo en proyectos de benegastro, lavasconia, sm-flow, endeavor"
   },
-  "ed":{
-    "title" : "Educación",
-    "cl" : "Generación 2009 - 2013",
-    "tt" : "Lic Informática",
-    "tw" : "Universidad Nacional Autónoma de México"
-
+  "ed": {
+    "title": "Educación",
+    "cl": "Generación 2009 - 2013",
+    "tt": "Lic Informática",
+    "tw": "Universidad Nacional Autónoma de México"
   },
-  "sk" : {
-    "pr" : "Habilidades profesionales",
-    "pe" : "Habilidades personales",
-    "pu" : "Puntualidad",
-    "le" : "Liderazgo",
-    "ss" : "Sociable",
-    "cr" : "Creativo"
+  "sk": {
+    "pr": "Habilidades profesionales",
+    "pe": "Habilidades personales",
+    "pu": "Puntualidad",
+    "le": "Liderazgo",
+    "ss": "Sociable",
+    "cr": "Creativo"
   },
-  "in" : {
-      "title" : "Intereses",
-      "i1" : "Videojuegos",
-      "i1d1" : "Soy fan de los videojuegos de consola (PS4), los shooter son lo mío",
-      "i2" : "Fotógrafo",
-      "i2d1" : "En mi tiempo libre soy fotógrafo aficionado"
+  "in": {
+    "title": "Intereses",
+    "i1": "Videojuegos",
+    "i1d1": "Soy fan de los videojuegos",
+    "i2": "Fotógrafo",
+    "i2d1": "En mi tiempo libre soy fotógrafo aficionado",
+    "i3": "Piano",
+    "i3d1": "En la pandemia me dio por aprender a tocar el piano."
   },
-  "con" : {
-      "title" : "Contacto",
-      "add" : "Domicilio",
-      "mo" : "Teléfono celular",
-      "name" : "Nombre",
-      "mail" : "Correo electrónico o téléfono",
-      "subject" : "Asunto",
-      "message" : "Mensaje",
-      "send" : "Mandar"
+  "con": {
+    "title": "Contacto",
+    "add": "Domicilio",
+    "mo": "Teléfono celular",
+    "name": "Nombre",
+    "mail": "Correo electrónico o téléfono",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Mandar"
   },
-  "tnx" : "Gracias, en breve te responderé",
-  "up" : "Arriba"
+  "tnx": "Gracias, en breve te responderé",
+  "up": "Arriba"
 }

@@ -15,80 +15,76 @@
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
-  "header-subtitle": "Hello my name is Isaac <b>Limón</b> and I'm a Web Developer from D.F., México. I am passionate about web development. My priority in the development is the performance of the application and good code. I am also very sociable, people feel comfortable being with me. :)",
-  "pf" : {
-    "title" : "Profile",
-    "fullname" : "Name",
-    "born" : "Born",
-    "date" : "May, 1986",
-    "yo" : "yo",
-    "linkedin" : "Perfil en LinkedIn"
+  "header-subtitle": "Hello my name is Isaac <b>Limón</b> and I'm a Web Developer from México. I am passionate about web development. My priority in the development is the performance of the application and good code. I am also very sociable, people feel comfortable being with me. :)",
+  "pf": {
+    "title": "Profile",
+    "fullname": "Name",
+    "born": "Born",
+    "date": "May, 1986",
+    "yo": "yo",
+    "linkedin": "Perfil en LinkedIn"
   },
   "wr": {
-    "title" : "Work experience",
-    "j1d" : "January 2014 - February 2015",
-    "j1t" : "El economista (newspaper)",
-    "j1c" : "Web Master",
-    "j1d1" : "I helped in the development of the site and its implementation eleconomista.mx",
-    "j1d2" : "I also build \"certificado digital\" of eleconomistaclub.mx",
-
-    "j2d" : "April 2013 - September 2013",
-    "j2t" : "Lemon Solutions",
-    "j2c" : "Lead Web Developer",
-    "j2d1" : "Multiple CMS implementations also a mailer and paypal modules.",
-
-    "j3d" : "May 2012 - November 2012",
-    "j3t" : "Ovenahu",
-    "j3c" : "Web Developer",
-    "j3d1" : "Migrate an application from the desktop to the web, originally written in java.",
-
-    "j4d" : "June 2011 - October 2012",
-    "j4t" : "UIM (Multidisciplinary Research Unit)",
-    "j4c" : "Web Developer",
-    "j4d1" : "Design application architecture.Creation of procedures and security policies. I participated in developing the system P.A.S.I.V.E.",
-
-    "j5d" : "February 2015 - April 2015",
-    "j5t" : "ktc",
-    "j5c" : "FrontEnd Creative Developer",
-    "j5d1" : "SUZUKI project consultant, Qeldr and Netlift",
-
-    "j6d" : "May 2015 - Now",
-    "j6t" : "Element Studios",
-    "j6c" : "Backend Developer",
-    "j6d1" : "Zend Framework Developer  in benegastro, lavasconia, sm-flow, endeavor/México"
-
+    "title": "Work experience",
+    "j1d": "January 2014 - February 2015",
+    "j1t": "El economista (newspaper)",
+    "j1c": "Web Master",
+    "j1d1": "I helped in the development of the site and its implementation eleconomista.mx",
+    "j1d2": "I also build \"certificado digital\" of eleconomistaclub.mx",
+    "j2d": "April 2013 - September 2013",
+    "j2t": "Lemon Solutions",
+    "j2c": "Lead Web Developer",
+    "j2d1": "Multiple CMS implementations also a mailer and paypal modules.",
+    "j3d": "May 2012 - November 2012",
+    "j3t": "Ovenahu",
+    "j3c": "Web Developer",
+    "j3d1": "Migrate an application from the desktop to the web, originally written in java.",
+    "j4d": "June 2011 - October 2012",
+    "j4t": "UIM (Multidisciplinary Research Unit)",
+    "j4c": "Web Developer",
+    "j4d1": "Design application architecture.Creation of procedures and security policies. I participated in developing the system P.A.S.I.V.E.",
+    "j5d": "February 2015 - April 2015",
+    "j5t": "ktc",
+    "j5c": "FrontEnd Creative Developer",
+    "j5d1": "SUZUKI project consultant, Qeldr and Netlift",
+    "j6d": "May 2015 - Now",
+    "j6t": "Element Studios",
+    "j6c": "Backend Developer",
+    "j6d1": "Zend Framework Developer  in benegastro, lavasconia, sm-flow, endeavor/México"
   },
-  "ed":{
-    "title" : "Education",
-    "cl" : "Class 2009 - 2013",
-    "tt" : "Computer Science Degree",
-    "tw" : "National Autonomous University of Mexico (UNAM)"
+  "ed": {
+    "title": "Education",
+    "cl": "Class 2009 - 2013",
+    "tt": "Computer Science Degree",
+    "tw": "National Autonomous University of Mexico (UNAM)"
   },
-  "sk" : {
-    "pr" : "Professional skills",
-    "pe" : "Personal skills",
-    "pu" : "Punctuality",
-    "le" : "Leadership",
-    "ss" : "Social skills",
-    "cr" : "Creativity"
+  "sk": {
+    "pr": "Professional skills",
+    "pe": "Personal skills",
+    "pu": "Punctuality",
+    "le": "Leadership",
+    "ss": "Social skills",
+    "cr": "Creativity"
   },
-  "in" : {
-      "title" : "Interests",
-      "i1" : "Videogames",
-      "i1d1" : "They are fan of video games console, almost all kinds of games.",
-      "i2" : "Photographer",
-      "i2d1" : "I am an amateur photographer in my spare time."
+  "in": {
+    "title": "Interests",
+    "i1": "Videogames",
+    "i1d1": "They are fan of video games.",
+    "i2": "Photographer",
+    "i2d1": "I am an amateur photographer in my spare time.",
+    "i3": "Piano",
+    "i3d1": "In the pandemic I decided to learn to play the piano."
   },
-  "con" : {
-      "title" : "Contact",
-      "add" : "Address",
-      "mo" : "Mobile",
-      "name" : "Enter your name",
-      "mail" : "Enter your email or you phone number",
-      "subject" : "Enter subject",
-      "message" : "Enter message here",
-      "send" : " Send message"
+  "con": {
+    "title": "Contact",
+    "add": "Address",
+    "mo": "Mobile",
+    "name": "Enter your name",
+    "mail": "Enter your email or you phone number",
+    "subject": "Enter subject",
+    "message": "Enter message here",
+    "send": " Send message"
   },
-  "tnx" : "Thanks, I will answer you soon",
-  "up" : "Up"
+  "tnx": "Thanks, I will answer you soon",
+  "up": "Up"
 }

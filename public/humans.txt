@@ -10,7 +10,7 @@
   Site: https://limonazzo.com
 
 /* SITE */
-  Last update: 01/05/2015
+  Last update: 8/04/2021
   Doctype: HTML5
-  IDE: Netbeans
+  IDE: PHPStorm
 
